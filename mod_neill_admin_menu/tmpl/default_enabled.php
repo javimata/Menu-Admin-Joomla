@@ -15,6 +15,5 @@ $lang = JFactory::getLanguage();
 	$createContent = $user->authorise('core.create', 'com_content');
 	$menu->addChild(new JMenuNode("Administrar Padres", 'index.php?option=com_users&view=users', 'class:pages'));
 	$menu->addChild(new JMenuNode("Administrar Alumnos", 'index.php?option=com_alumnos', 'class:page'));
-	$menu->addChild(new JMenuNode("Sistema de reportes", 'http://www.neillschool.com/MC_campaigns.php',null,false,'blank'));
 
 	$menu->getParent();
